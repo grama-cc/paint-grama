@@ -1,0 +1,12 @@
+$fonts: '../assets/fonts/';
+
+@font-face {
+  font-family: OratorStd;
+  src: url($fonts + 'OratorStd.eot');
+  src: url($fonts + 'OratorStd.eot?#iefix') format('embedded-opentype'),
+    url($fonts + 'OratorStd.woff2') format('woff2'),
+    url($fonts + 'OratorStd.woff') format('woff'),
+    url($fonts + 'OratorStd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

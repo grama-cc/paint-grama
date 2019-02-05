@@ -1,0 +1,33 @@
+body {
+  background: $pure-white;
+  font-family: sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100vw;
+
+  h1 {
+    color: $pure-white;
+    font-family: OratorStd;
+    font-size: 256px;
+    left: 50%;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%);
+    z-index: 9;
+  }
+
+  .module {
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    position: absolute;
+    width: 160px;
+  }
+}
